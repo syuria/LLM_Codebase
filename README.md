@@ -13,7 +13,6 @@ This project provides a Gradio interface for splitting a video into smaller clip
 ## Project Structure
 
 ```text
-project/
 project/ 
 ├──src/ 
    ├── ui.py # Gradio user interface 
