@@ -14,12 +14,16 @@ This project provides a Gradio interface for splitting a video into smaller clip
 
 ```text
 project/
-├── ui.py          # Gradio user interface
-├── splitter.py    # Video splitting logic
-├── video.py       # Shared video utility functions
-├── vlm.py         # VLM / Ollama processing logic
-├── prompt.txt     # Prompt template for VLM analysis
-├── requirements.txt
+project/ 
+├──src/ 
+   ├── ui.py # Gradio user interface 
+   ├── splitter.py # Video splitting logic 
+   ├── vlm.py # VLM / Ollama processing logic 
+   ├── prompt.txt # Prompt template for VLM analysis 
+├── tests 
+├── utils 
+   ├── video.py # Shared video utility functions 
+├── requirements.txt 
 └── README.md
 ```
 
